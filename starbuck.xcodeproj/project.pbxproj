@@ -13,6 +13,7 @@
 		1F307A8A27808D9100811D1D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F307A7827808D8700811D1D /* ContentView.swift */; };
 		1F307A8B27808D9100811D1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F307A7927808D9100811D1D /* Assets.xcassets */; };
 		1F307A8C27808D9100811D1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F307A7927808D9100811D1D /* Assets.xcassets */; };
+		1F307A9827808EE100811D1D /* PriceLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F307A9727808EE100811D1D /* PriceLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		1F307A7E27808D9100811D1D /* starbuck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = starbuck.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F307A8427808D9100811D1D /* starbuck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = starbuck.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F307A8627808D9100811D1D /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		1F307A9727808EE100811D1D /* PriceLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				1F307A7727808D8700811D1D /* starbuckApp.swift */,
 				1F307A7827808D8700811D1D /* ContentView.swift */,
+				1F307A9527808EAE00811D1D /* View */,
 				1F307A7927808D9100811D1D /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -76,6 +79,22 @@
 				1F307A8627808D9100811D1D /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		1F307A9527808EAE00811D1D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1F307A9627808EB800811D1D /* Reusable */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1F307A9627808EB800811D1D /* Reusable */ = {
+			isa = PBXGroup;
+			children = (
+				1F307A9727808EE100811D1D /* PriceLabel.swift */,
+			);
+			path = Reusable;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,6 +195,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F307A9827808EE100811D1D /* PriceLabel.swift in Sources */,
 				1F307A8927808D9100811D1D /* ContentView.swift in Sources */,
 				1F307A8727808D9100811D1D /* starbuckApp.swift in Sources */,
 			);
