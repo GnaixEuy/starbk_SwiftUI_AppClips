@@ -16,6 +16,10 @@
 		1F307A9827808EE100811D1D /* PriceLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F307A9727808EE100811D1D /* PriceLabel.swift */; };
 		1F67DF052780B11D00A81AF9 /* orders.json in Resources */ = {isa = PBXBuildFile; fileRef = 1F67DF032780B11D00A81AF9 /* orders.json */; };
 		1F67DF062780B11D00A81AF9 /* drinks.json in Resources */ = {isa = PBXBuildFile; fileRef = 1F67DF042780B11D00A81AF9 /* drinks.json */; };
+		1F67DF092780B1A600A81AF9 /* DrinkMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F67DF082780B1A600A81AF9 /* DrinkMenu.swift */; };
+		1F67DF0B2780B32600A81AF9 /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F67DF0A2780B32600A81AF9 /* Drink.swift */; };
+		1F67DF0D2780B48100A81AF9 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F67DF0C2780B48100A81AF9 /* Order.swift */; };
+		1F67DF0F2780B54C00A81AF9 /* loadJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F67DF0E2780B54C00A81AF9 /* loadJson.swift */; };
 		1FCD084E27809A6D007A03BC /* MenuTItleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCD084D27809A6D007A03BC /* MenuTItleView.swift */; };
 		1FCD085127809D99007A03BC /* SizeOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCD085027809D99007A03BC /* SizeOptionsView.swift */; };
 /* End PBXBuildFile section */
@@ -30,6 +34,10 @@
 		1F307A9727808EE100811D1D /* PriceLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceLabel.swift; sourceTree = "<group>"; };
 		1F67DF032780B11D00A81AF9 /* orders.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = orders.json; sourceTree = "<group>"; };
 		1F67DF042780B11D00A81AF9 /* drinks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = drinks.json; sourceTree = "<group>"; };
+		1F67DF082780B1A600A81AF9 /* DrinkMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkMenu.swift; sourceTree = "<group>"; };
+		1F67DF0A2780B32600A81AF9 /* Drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drink.swift; sourceTree = "<group>"; };
+		1F67DF0C2780B48100A81AF9 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		1F67DF0E2780B54C00A81AF9 /* loadJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loadJson.swift; sourceTree = "<group>"; };
 		1FCD084D27809A6D007A03BC /* MenuTItleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTItleView.swift; sourceTree = "<group>"; };
 		1FCD085027809D99007A03BC /* SizeOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeOptionsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -111,6 +119,7 @@
 		1F67DF012780B0EF00A81AF9 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				1F67DF072780B19500A81AF9 /* Model */,
 				1F67DF022780B0F500A81AF9 /* Mock */,
 			);
 			path = Data;
@@ -123,6 +132,17 @@
 				1F67DF032780B11D00A81AF9 /* orders.json */,
 			);
 			path = Mock;
+			sourceTree = "<group>";
+		};
+		1F67DF072780B19500A81AF9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1F67DF082780B1A600A81AF9 /* DrinkMenu.swift */,
+				1F67DF0A2780B32600A81AF9 /* Drink.swift */,
+				1F67DF0C2780B48100A81AF9 /* Order.swift */,
+				1F67DF0E2780B54C00A81AF9 /* loadJson.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		1FCD084C27809A2C007A03BC /* Home */ = {
@@ -242,10 +262,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FCD084E27809A6D007A03BC /* MenuTItleView.swift in Sources */,
+				1F67DF0F2780B54C00A81AF9 /* loadJson.swift in Sources */,
 				1F307A9827808EE100811D1D /* PriceLabel.swift in Sources */,
+				1F67DF0D2780B48100A81AF9 /* Order.swift in Sources */,
 				1FCD085127809D99007A03BC /* SizeOptionsView.swift in Sources */,
 				1F307A8927808D9100811D1D /* ContentView.swift in Sources */,
 				1F307A8727808D9100811D1D /* starbuckApp.swift in Sources */,
+				1F67DF0B2780B32600A81AF9 /* Drink.swift in Sources */,
+				1F67DF092780B1A600A81AF9 /* DrinkMenu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
