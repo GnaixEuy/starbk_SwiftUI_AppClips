@@ -8,13 +8,31 @@
 import SwiftUI
 
 struct PriceLabel: View {
+    
+    @Environment(\.locale) var locale
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack{
+            Group{
+                Text(locale.currencySymbol!)
+                    .fontWeight(.semibold)
+                Text(String(format: "%.2f", 18.88889))
+                    .fontWeight(.semibold)
+            }
+            .font(.system(size: 32))
+            .foregroundColor(Color("subText"))
+        }
     }
 }
 
 struct PriceLabel_Previews: PreviewProvider {
     static var previews: some View {
-        PriceLabel()
+        Group {
+            PriceLabel()
+                .previewLayout(.sizeThatFits)
+            PriceLabel()
+                .previewLayout(.sizeThatFits)
+                .environment(\.locale, .init(identifier: "zh_cn"))
+        }
     }
 }
