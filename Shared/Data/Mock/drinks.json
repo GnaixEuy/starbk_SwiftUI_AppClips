@@ -1,0 +1,286 @@
+[
+  {
+    "id": 1,
+    "name": "热茶",
+    "published_at": "2021-12-31T16:00:18.265Z",
+    "created_at": "2021-12-31T15:45:03.327Z",
+    "updated_at": "2022-01-01T14:16:22.614Z",
+    "menus": []
+  },
+  {
+    "id": 2,
+    "name": "星冰乐",
+    "published_at": "2021-12-31T15:59:43.722Z",
+    "created_at": "2021-12-31T15:45:16.715Z",
+    "updated_at": "2021-12-31T15:59:43.732Z",
+    "menus": [
+      {
+        "id": 2,
+        "name": "抹茶星冰乐",
+        "desc": "抹茶的清新，加一份牛奶的丝滑，与冰块和稀奶油搅拌出特有的清爽。",
+        "price": 36.4,
+        "size_available": false,
+        "drink": 2,
+        "published_at": "2021-12-31T16:30:40.872Z",
+        "created_at": "2021-12-31T16:30:39.338Z",
+        "updated_at": "2021-12-31T16:44:25.182Z",
+        "milk_option": [
+          {
+            "id": 1,
+            "name": "纯牛奶"
+          },
+          {
+            "id": 2,
+            "name": "豆奶"
+          },
+          {
+            "id": 3,
+            "name": "杏仁奶"
+          }
+        ],
+        "image": [
+          {
+            "id": 14,
+            "name": "peach-shrub-fizz.png",
+            "alternativeText": "",
+            "caption": "",
+            "width": 178,
+            "height": 399,
+            "formats": {
+              "thumbnail": {
+                "name": "thumbnail_peach-shrub-fizz.png",
+                "hash": "thumbnail_peach_shrub_fizz_dc146f07a2",
+                "ext": ".png",
+                "mime": "image/png",
+                "width": 70,
+                "height": 156,
+                "size": 30.41,
+                "path": null,
+                "url": "/uploads/thumbnail_peach_shrub_fizz_dc146f07a2.png"
+              }
+            },
+            "hash": "peach_shrub_fizz_dc146f07a2",
+            "ext": ".png",
+            "mime": "image/png",
+            "size": 142.7,
+            "url": "/uploads/peach_shrub_fizz_dc146f07a2.png",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "created_at": "2021-12-31T16:26:52.192Z",
+            "updated_at": "2021-12-31T16:26:52.214Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "玩味冰调™",
+    "published_at": "2021-12-31T16:00:20.802Z",
+    "created_at": "2021-12-31T15:51:19.979Z",
+    "updated_at": "2022-01-01T14:13:33.347Z",
+    "menus": [
+      {
+        "id": 3,
+        "name": "气炫冰山美式",
+        "desc": "灵感源自金汤力 沁爽柠香揉合意式浓缩 低糖&低卡 含少量酒精成分 孕妇与儿童不建议饮用",
+        "price": 43.8,
+        "size_available": true,
+        "drink": 3,
+        "published_at": "2022-01-01T13:17:29.533Z",
+        "created_at": "2022-01-01T13:17:04.031Z",
+        "updated_at": "2022-01-01T14:13:44.160Z",
+        "milk_option": [],
+        "image": [
+          {
+            "id": 17,
+            "name": "sparkling-espresso-tonic.png",
+            "alternativeText": "",
+            "caption": "",
+            "width": 211,
+            "height": 505,
+            "formats": {
+              "thumbnail": {
+                "name": "thumbnail_sparkling-espresso-tonic.png",
+                "hash": "thumbnail_sparkling_espresso_tonic_fff688106e",
+                "ext": ".png",
+                "mime": "image/png",
+                "width": 65,
+                "height": 156,
+                "size": 30.13,
+                "path": null,
+                "url": "/uploads/thumbnail_sparkling_espresso_tonic_fff688106e.png"
+              },
+              "small": {
+                "name": "small_sparkling-espresso-tonic.png",
+                "hash": "small_sparkling_espresso_tonic_fff688106e",
+                "ext": ".png",
+                "mime": "image/png",
+                "width": 209,
+                "height": 500,
+                "size": 260.03,
+                "path": null,
+                "url": "/uploads/small_sparkling_espresso_tonic_fff688106e.png"
+              }
+            },
+            "hash": "sparkling_espresso_tonic_fff688106e",
+            "ext": ".png",
+            "mime": "image/png",
+            "size": 240.59,
+            "url": "/uploads/sparkling_espresso_tonic_fff688106e.png",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "created_at": "2021-12-31T16:26:52.287Z",
+            "updated_at": "2021-12-31T16:26:52.303Z"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "醋意桃桃",
+        "desc": "大块黄桃+爽弹果冻 桃汁混搭桃醋风味 茶瓦纳™禅韵乌龙茶",
+        "price": 42.6,
+        "size_available": true,
+        "drink": 3,
+        "published_at": "2022-01-01T14:15:09.244Z",
+        "created_at": "2022-01-01T14:14:19.138Z",
+        "updated_at": "2022-01-01T14:15:09.266Z",
+        "milk_option": [],
+        "image": [
+          {
+            "id": 14,
+            "name": "peach-shrub-fizz.png",
+            "alternativeText": "",
+            "caption": "",
+            "width": 178,
+            "height": 399,
+            "formats": {
+              "thumbnail": {
+                "name": "thumbnail_peach-shrub-fizz.png",
+                "hash": "thumbnail_peach_shrub_fizz_dc146f07a2",
+                "ext": ".png",
+                "mime": "image/png",
+                "width": 70,
+                "height": 156,
+                "size": 30.41,
+                "path": null,
+                "url": "/uploads/thumbnail_peach_shrub_fizz_dc146f07a2.png"
+              }
+            },
+            "hash": "peach_shrub_fizz_dc146f07a2",
+            "ext": ".png",
+            "mime": "image/png",
+            "size": 142.7,
+            "url": "/uploads/peach_shrub_fizz_dc146f07a2.png",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "created_at": "2021-12-31T16:26:52.192Z",
+            "updated_at": "2021-12-31T16:26:52.214Z"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "橙柚派对",
+        "desc": "西柚+橙+柠檬三重果肉 富含维生素C 茶瓦纳™橘香茉意花草茶",
+        "price": 41.6,
+        "size_available": true,
+        "drink": 3,
+        "published_at": "2022-01-01T14:15:06.376Z",
+        "created_at": "2022-01-01T14:14:52.315Z",
+        "updated_at": "2022-01-01T14:15:06.405Z",
+        "milk_option": [],
+        "image": [
+          {
+            "id": 16,
+            "name": "triple-citrus.png",
+            "alternativeText": "",
+            "caption": "",
+            "width": 175,
+            "height": 399,
+            "formats": {
+              "thumbnail": {
+                "name": "thumbnail_triple-citrus.png",
+                "hash": "thumbnail_triple_citrus_3bb4fcdf40",
+                "ext": ".png",
+                "mime": "image/png",
+                "width": 68,
+                "height": 156,
+                "size": 31.87,
+                "path": null,
+                "url": "/uploads/thumbnail_triple_citrus_3bb4fcdf40.png"
+              }
+            },
+            "hash": "triple_citrus_3bb4fcdf40",
+            "ext": ".png",
+            "mime": "image/png",
+            "size": 161.43,
+            "url": "/uploads/triple_citrus_3bb4fcdf40.png",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "created_at": "2021-12-31T16:26:52.260Z",
+            "updated_at": "2021-12-31T16:26:52.273Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "咖啡",
+    "published_at": "2021-12-31T15:59:37.844Z",
+    "created_at": "2021-12-31T15:51:33.910Z",
+    "updated_at": "2022-01-01T14:16:40.819Z",
+    "menus": [
+      {
+        "id": 1,
+        "name": "冷萃冰咖啡",
+        "desc": "10多个小时的慢速萃取，带出微甜的巧克力般风味，与特别的柑橘般风味，为你奉上沁甘顺滑的味觉感受。",
+        "price": 23.32,
+        "size_available": true,
+        "drink": 4,
+        "published_at": "2021-12-31T16:29:15.943Z",
+        "created_at": "2021-12-31T16:22:28.167Z",
+        "updated_at": "2022-01-01T14:16:40.808Z",
+        "milk_option": [],
+        "image": [
+          {
+            "id": 3,
+            "name": "20160912105214955.png",
+            "alternativeText": "",
+            "caption": "",
+            "width": 176,
+            "height": 342,
+            "formats": {
+              "thumbnail": {
+                "name": "thumbnail_20160912105214955.png",
+                "hash": "thumbnail_20160912105214955_8759ac4f9e",
+                "ext": ".png",
+                "mime": "image/png",
+                "width": 80,
+                "height": 156,
+                "size": 35.4,
+                "path": null,
+                "url": "/uploads/thumbnail_20160912105214955_8759ac4f9e.png"
+              }
+            },
+            "hash": "20160912105214955_8759ac4f9e",
+            "ext": ".png",
+            "mime": "image/png",
+            "size": 125.41,
+            "url": "/uploads/20160912105214955_8759ac4f9e.png",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "created_at": "2021-12-31T16:26:51.237Z",
+            "updated_at": "2021-12-31T16:26:51.249Z"
+          }
+        ]
+      }
+    ]
+  }
+]
