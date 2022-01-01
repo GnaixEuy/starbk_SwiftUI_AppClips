@@ -15,6 +15,7 @@
 		1F307A8C27808D9100811D1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F307A7927808D9100811D1D /* Assets.xcassets */; };
 		1F307A9827808EE100811D1D /* PriceLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F307A9727808EE100811D1D /* PriceLabel.swift */; };
 		1FCD084E27809A6D007A03BC /* MenuTItleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCD084D27809A6D007A03BC /* MenuTItleView.swift */; };
+		1FCD085127809D99007A03BC /* SizeOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCD085027809D99007A03BC /* SizeOptionsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		1F307A8627808D9100811D1D /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		1F307A9727808EE100811D1D /* PriceLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceLabel.swift; sourceTree = "<group>"; };
 		1FCD084D27809A6D007A03BC /* MenuTItleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTItleView.swift; sourceTree = "<group>"; };
+		1FCD085027809D99007A03BC /* SizeOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeOptionsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 		1F307A9527808EAE00811D1D /* View */ = {
 			isa = PBXGroup;
 			children = (
+				1FCD084F27809D88007A03BC /* Detail */,
 				1FCD084C27809A2C007A03BC /* Home */,
 				1F307A9627808EB800811D1D /* Reusable */,
 			);
@@ -106,6 +109,14 @@
 				1FCD084D27809A6D007A03BC /* MenuTItleView.swift */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		1FCD084F27809D88007A03BC /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				1FCD085027809D99007A03BC /* SizeOptionsView.swift */,
+			);
+			path = Detail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,6 +219,7 @@
 			files = (
 				1FCD084E27809A6D007A03BC /* MenuTItleView.swift in Sources */,
 				1F307A9827808EE100811D1D /* PriceLabel.swift in Sources */,
+				1FCD085127809D99007A03BC /* SizeOptionsView.swift in Sources */,
 				1F307A8927808D9100811D1D /* ContentView.swift in Sources */,
 				1F307A8727808D9100811D1D /* starbuckApp.swift in Sources */,
 			);

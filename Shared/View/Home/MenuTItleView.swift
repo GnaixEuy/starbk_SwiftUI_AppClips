@@ -9,16 +9,32 @@ import SwiftUI
 
 struct MenuTItleView: View {
     var body: some View {
-        HStack{
-            Text("现在下单")
-            Image("arrow")
-        }
         
+        VStack{
+            Spacer()
+            HStack{
+                Text("现在下单")
+                    .fontWeight(.semibold)
+                    .font(.system(size: 21))
+                    .foregroundColor(Color("subText"))
+                Image("arrow")
+            }
+            
+            Text("焦糖奶霜星冰乐")
+                .font(.system(size: 32))
+                .foregroundColor(.accentColor)
+                .fontWeight(.heavy)
+            Spacer()
+            PriceLabel()
+        }
+        .padding()
+        .frame(width: 280, height: 200)
     }
 }
 
 struct MenuTItleView_Previews: PreviewProvider {
     static var previews: some View {
         MenuTItleView()
+            .previewLayout(.sizeThatFits)
     }
 }
