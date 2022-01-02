@@ -11,6 +11,7 @@ import Foundation
 struct Order: Codable, Identifiable {
     var id : Int = 0
     var menu_id : Int = 0
+    var menu_name : String = ""
     var milk_option : String = ""
     var size : String = ""
     var price : Double = 0.0
