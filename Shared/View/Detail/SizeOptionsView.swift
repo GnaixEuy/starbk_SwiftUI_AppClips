@@ -67,8 +67,7 @@ struct SizeOptionView_Previews: PreviewProvider {
         Group{
             testView1(selection: 2)
                 .preferredColorScheme(.dark)
-                .environment(\.layoutDirection, .rightToLeft)
-            
+                .environment(\.layoutDirection, .rightToLeft)            
             SizeOptionsView(selection: .constant(0))
         }
             .previewLayout(.sizeThatFits)

@@ -15,11 +15,12 @@
 		1F307A8C27808D9100811D1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F307A7927808D9100811D1D /* Assets.xcassets */; };
 		1F307A9827808EE100811D1D /* PriceLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F307A9727808EE100811D1D /* PriceLabel.swift */; };
 		1F67DF052780B11D00A81AF9 /* orders.json in Resources */ = {isa = PBXBuildFile; fileRef = 1F67DF032780B11D00A81AF9 /* orders.json */; };
-		1F67DF062780B11D00A81AF9 /* drinks.json in Resources */ = {isa = PBXBuildFile; fileRef = 1F67DF042780B11D00A81AF9 /* drinks.json */; };
 		1F67DF092780B1A600A81AF9 /* DrinkMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F67DF082780B1A600A81AF9 /* DrinkMenu.swift */; };
 		1F67DF0B2780B32600A81AF9 /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F67DF0A2780B32600A81AF9 /* Drink.swift */; };
 		1F67DF0D2780B48100A81AF9 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F67DF0C2780B48100A81AF9 /* Order.swift */; };
 		1F67DF0F2780B54C00A81AF9 /* loadJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F67DF0E2780B54C00A81AF9 /* loadJson.swift */; };
+		1F7761182781CE5F00804F24 /* DrinkListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7761172781CE5F00804F24 /* DrinkListView.swift */; };
+		1F77611C2781E22000804F24 /* drinks.json in Resources */ = {isa = PBXBuildFile; fileRef = 1F77611B2781E22000804F24 /* drinks.json */; };
 		1FBAFE802781C7FD00D9E8D9 /* DrinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBAFE7F2781C7FD00D9E8D9 /* DrinkView.swift */; };
 		1FCD084E27809A6D007A03BC /* MenuTItleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCD084D27809A6D007A03BC /* MenuTItleView.swift */; };
 		1FCD085127809D99007A03BC /* SizeOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCD085027809D99007A03BC /* SizeOptionsView.swift */; };
@@ -34,11 +35,12 @@
 		1F307A8627808D9100811D1D /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		1F307A9727808EE100811D1D /* PriceLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceLabel.swift; sourceTree = "<group>"; };
 		1F67DF032780B11D00A81AF9 /* orders.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = orders.json; sourceTree = "<group>"; };
-		1F67DF042780B11D00A81AF9 /* drinks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = drinks.json; sourceTree = "<group>"; };
 		1F67DF082780B1A600A81AF9 /* DrinkMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkMenu.swift; sourceTree = "<group>"; };
 		1F67DF0A2780B32600A81AF9 /* Drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drink.swift; sourceTree = "<group>"; };
 		1F67DF0C2780B48100A81AF9 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		1F67DF0E2780B54C00A81AF9 /* loadJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loadJson.swift; sourceTree = "<group>"; };
+		1F7761172781CE5F00804F24 /* DrinkListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkListView.swift; sourceTree = "<group>"; };
+		1F77611B2781E22000804F24 /* drinks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = drinks.json; sourceTree = "<group>"; };
 		1FBAFE7F2781C7FD00D9E8D9 /* DrinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkView.swift; sourceTree = "<group>"; };
 		1FCD084D27809A6D007A03BC /* MenuTItleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTItleView.swift; sourceTree = "<group>"; };
 		1FCD085027809D99007A03BC /* SizeOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeOptionsView.swift; sourceTree = "<group>"; };
@@ -130,7 +132,7 @@
 		1F67DF022780B0F500A81AF9 /* Mock */ = {
 			isa = PBXGroup;
 			children = (
-				1F67DF042780B11D00A81AF9 /* drinks.json */,
+				1F77611B2781E22000804F24 /* drinks.json */,
 				1F67DF032780B11D00A81AF9 /* orders.json */,
 			);
 			path = Mock;
@@ -152,6 +154,7 @@
 			children = (
 				1FCD084D27809A6D007A03BC /* MenuTItleView.swift */,
 				1FBAFE7F2781C7FD00D9E8D9 /* DrinkView.swift */,
+				1F7761172781CE5F00804F24 /* DrinkListView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -245,7 +248,7 @@
 			files = (
 				1F67DF052780B11D00A81AF9 /* orders.json in Resources */,
 				1F307A8B27808D9100811D1D /* Assets.xcassets in Resources */,
-				1F67DF062780B11D00A81AF9 /* drinks.json in Resources */,
+				1F77611C2781E22000804F24 /* drinks.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +270,7 @@
 				1FCD084E27809A6D007A03BC /* MenuTItleView.swift in Sources */,
 				1F67DF0F2780B54C00A81AF9 /* loadJson.swift in Sources */,
 				1F307A9827808EE100811D1D /* PriceLabel.swift in Sources */,
+				1F7761182781CE5F00804F24 /* DrinkListView.swift in Sources */,
 				1FBAFE802781C7FD00D9E8D9 /* DrinkView.swift in Sources */,
 				1F67DF0D2780B48100A81AF9 /* Order.swift in Sources */,
 				1FCD085127809D99007A03BC /* SizeOptionsView.swift in Sources */,
