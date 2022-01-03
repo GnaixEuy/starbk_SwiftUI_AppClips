@@ -21,6 +21,7 @@
 		1F67DF0F2780B54C00A81AF9 /* loadJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F67DF0E2780B54C00A81AF9 /* loadJson.swift */; };
 		1F7761182781CE5F00804F24 /* DrinkListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7761172781CE5F00804F24 /* DrinkListView.swift */; };
 		1F77611C2781E22000804F24 /* drinks.json in Resources */ = {isa = PBXBuildFile; fileRef = 1F77611B2781E22000804F24 /* drinks.json */; };
+		1F8CF3D627830C26005CFBC6 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 1F8CF3D527830C26005CFBC6 /* SDWebImageSwiftUI */; };
 		1FBAFE802781C7FD00D9E8D9 /* DrinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBAFE7F2781C7FD00D9E8D9 /* DrinkView.swift */; };
 		1FCD084E27809A6D007A03BC /* MenuTItleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCD084D27809A6D007A03BC /* MenuTItleView.swift */; };
 		1FCD085127809D99007A03BC /* SizeOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCD085027809D99007A03BC /* SizeOptionsView.swift */; };
@@ -51,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F8CF3D627830C26005CFBC6 /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,6 +185,9 @@
 			dependencies = (
 			);
 			name = "starbuck (iOS)";
+			packageProductDependencies = (
+				1F8CF3D527830C26005CFBC6 /* SDWebImageSwiftUI */,
+			);
 			productName = "starbuck (iOS)";
 			productReference = 1F307A7E27808D9100811D1D /* starbuck.app */;
 			productType = "com.apple.product-type.application";
@@ -231,6 +236,9 @@
 				Base,
 			);
 			mainGroup = 1F307A7127808D8700811D1D;
+			packageReferences = (
+				1F8CF3D427830C26005CFBC6 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = 1F307A7F27808D9100811D1D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -546,6 +554,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1F8CF3D427830C26005CFBC6 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://gitee.com/ios-collection/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1F8CF3D527830C26005CFBC6 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1F8CF3D427830C26005CFBC6 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1F307A7227808D8700811D1D /* Project object */;
 }

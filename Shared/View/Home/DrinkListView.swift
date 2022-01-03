@@ -16,7 +16,7 @@ struct DrinkListView: View {
     var body: some View {
         ScrollView(.horizontal, showsIndicators: false, content: {
             
-            HStack(spacing: 42,  content: {
+            HStack(spacing: 52,  content: {
                 ForEach(drinks.indices) { (index) in
                     DrinkView(drink: drinks[index])
                         .foregroundColor(selection == index ? Color.accentColor : Color("unselect"))
