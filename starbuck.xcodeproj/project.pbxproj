@@ -25,6 +25,7 @@
 		1F8CF3D827831013005CFBC6 /* MenuCoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8CF3D727831013005CFBC6 /* MenuCoverView.swift */; };
 		1F8CF3DB2783110F005CFBC6 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8CF3DA2783110F005CFBC6 /* Network.swift */; };
 		1FBAFE802781C7FD00D9E8D9 /* DrinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBAFE7F2781C7FD00D9E8D9 /* DrinkView.swift */; };
+		1FC60591278427A300D3BAFC /* MenuListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC60590278427A300D3BAFC /* MenuListView.swift */; };
 		1FCD084E27809A6D007A03BC /* MenuTItleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCD084D27809A6D007A03BC /* MenuTItleView.swift */; };
 		1FCD085127809D99007A03BC /* SizeOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCD085027809D99007A03BC /* SizeOptionsView.swift */; };
 /* End PBXBuildFile section */
@@ -47,6 +48,7 @@
 		1F8CF3D727831013005CFBC6 /* MenuCoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCoverView.swift; sourceTree = "<group>"; };
 		1F8CF3DA2783110F005CFBC6 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		1FBAFE7F2781C7FD00D9E8D9 /* DrinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkView.swift; sourceTree = "<group>"; };
+		1FC60590278427A300D3BAFC /* MenuListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuListView.swift; sourceTree = "<group>"; };
 		1FCD084D27809A6D007A03BC /* MenuTItleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTItleView.swift; sourceTree = "<group>"; };
 		1FCD085027809D99007A03BC /* SizeOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeOptionsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -171,6 +173,7 @@
 				1FBAFE7F2781C7FD00D9E8D9 /* DrinkView.swift */,
 				1F7761172781CE5F00804F24 /* DrinkListView.swift */,
 				1F8CF3D727831013005CFBC6 /* MenuCoverView.swift */,
+				1FC60590278427A300D3BAFC /* MenuListView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -290,6 +293,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FCD084E27809A6D007A03BC /* MenuTItleView.swift in Sources */,
+				1FC60591278427A300D3BAFC /* MenuListView.swift in Sources */,
 				1F67DF0F2780B54C00A81AF9 /* loadJson.swift in Sources */,
 				1F307A9827808EE100811D1D /* PriceLabel.swift in Sources */,
 				1F7761182781CE5F00804F24 /* DrinkListView.swift in Sources */,
