@@ -18,6 +18,15 @@
           "revision": "cd8625b7cf11a97698e180d28bb7d5d357196678",
           "version": "2.0.2"
         }
+      },
+      {
+        "package": "Request",
+        "repositoryURL": "https://github.com/carson-katri/swift-request.git",
+        "state": {
+          "branch": null,
+          "revision": "6266d884d7ded618cceb0e0920431be4d6f4c4aa",
+          "version": "1.4.0"
+        }
       }
     ]
   },

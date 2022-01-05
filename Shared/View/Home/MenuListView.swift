@@ -11,8 +11,6 @@ struct MenuListView: View {
     //This view's data source
     var menus : [DrinkMenu]
     
-    
-    
     @Binding var selection    : Int          // Send to consumer
     @State private var offset : CGFloat = 0  // Offset of the entire swipeview
     

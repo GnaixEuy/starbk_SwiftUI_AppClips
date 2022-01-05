@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F216F752785C85C004B1FC7 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F216F742785C85C004B1FC7 /* HomeView.swift */; };
+		1F216F772785C9AE004B1FC7 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F216F762785C9AE004B1FC7 /* LoadingView.swift */; };
 		1F307A8727808D9100811D1D /* starbuckApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F307A7727808D8700811D1D /* starbuckApp.swift */; };
 		1F307A8827808D9100811D1D /* starbuckApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F307A7727808D8700811D1D /* starbuckApp.swift */; };
 		1F307A8927808D9100811D1D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F307A7827808D8700811D1D /* ContentView.swift */; };
@@ -14,6 +16,8 @@
 		1F307A8B27808D9100811D1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F307A7927808D9100811D1D /* Assets.xcassets */; };
 		1F307A8C27808D9100811D1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F307A7927808D9100811D1D /* Assets.xcassets */; };
 		1F307A9827808EE100811D1D /* PriceLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F307A9727808EE100811D1D /* PriceLabel.swift */; };
+		1F4EDC652785D653001DE73E /* Json in Frameworks */ = {isa = PBXBuildFile; productRef = 1F4EDC642785D653001DE73E /* Json */; };
+		1F4EDC672785D653001DE73E /* Request in Frameworks */ = {isa = PBXBuildFile; productRef = 1F4EDC662785D653001DE73E /* Request */; };
 		1F67DF052780B11D00A81AF9 /* orders.json in Resources */ = {isa = PBXBuildFile; fileRef = 1F67DF032780B11D00A81AF9 /* orders.json */; };
 		1F67DF092780B1A600A81AF9 /* DrinkMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F67DF082780B1A600A81AF9 /* DrinkMenu.swift */; };
 		1F67DF0B2780B32600A81AF9 /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F67DF0A2780B32600A81AF9 /* Drink.swift */; };
@@ -26,11 +30,14 @@
 		1F8CF3DB2783110F005CFBC6 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8CF3DA2783110F005CFBC6 /* Network.swift */; };
 		1FBAFE802781C7FD00D9E8D9 /* DrinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBAFE7F2781C7FD00D9E8D9 /* DrinkView.swift */; };
 		1FC60591278427A300D3BAFC /* MenuListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC60590278427A300D3BAFC /* MenuListView.swift */; };
-		1FCD084E27809A6D007A03BC /* MenuTItleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCD084D27809A6D007A03BC /* MenuTItleView.swift */; };
+		1FC605932784291F00D3BAFC /* AddToBagButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC605922784291F00D3BAFC /* AddToBagButton.swift */; };
+		1FCD084E27809A6D007A03BC /* MenuTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCD084D27809A6D007A03BC /* MenuTitleView.swift */; };
 		1FCD085127809D99007A03BC /* SizeOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCD085027809D99007A03BC /* SizeOptionsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F216F742785C85C004B1FC7 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		1F216F762785C9AE004B1FC7 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		1F307A7727808D8700811D1D /* starbuckApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = starbuckApp.swift; sourceTree = "<group>"; };
 		1F307A7827808D8700811D1D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1F307A7927808D9100811D1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,7 +56,8 @@
 		1F8CF3DA2783110F005CFBC6 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		1FBAFE7F2781C7FD00D9E8D9 /* DrinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkView.swift; sourceTree = "<group>"; };
 		1FC60590278427A300D3BAFC /* MenuListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuListView.swift; sourceTree = "<group>"; };
-		1FCD084D27809A6D007A03BC /* MenuTItleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTItleView.swift; sourceTree = "<group>"; };
+		1FC605922784291F00D3BAFC /* AddToBagButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToBagButton.swift; sourceTree = "<group>"; };
+		1FCD084D27809A6D007A03BC /* MenuTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTitleView.swift; sourceTree = "<group>"; };
 		1FCD085027809D99007A03BC /* SizeOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeOptionsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -58,6 +66,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F4EDC672785D653001DE73E /* Request in Frameworks */,
+				1F4EDC652785D653001DE73E /* Json in Frameworks */,
 				1F8CF3D627830C26005CFBC6 /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -72,6 +82,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F216F732785C84B004B1FC7 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				1F216F742785C85C004B1FC7 /* HomeView.swift */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
 		1F307A7127808D8700811D1D = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +131,7 @@
 		1F307A9527808EAE00811D1D /* View */ = {
 			isa = PBXGroup;
 			children = (
+				1F216F732785C84B004B1FC7 /* Scene */,
 				1FCD084F27809D88007A03BC /* Detail */,
 				1FCD084C27809A2C007A03BC /* Home */,
 				1F307A9627808EB800811D1D /* Reusable */,
@@ -124,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				1F307A9727808EE100811D1D /* PriceLabel.swift */,
+				1F216F762785C9AE004B1FC7 /* LoadingView.swift */,
 			);
 			path = Reusable;
 			sourceTree = "<group>";
@@ -169,7 +189,7 @@
 		1FCD084C27809A2C007A03BC /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				1FCD084D27809A6D007A03BC /* MenuTItleView.swift */,
+				1FCD084D27809A6D007A03BC /* MenuTitleView.swift */,
 				1FBAFE7F2781C7FD00D9E8D9 /* DrinkView.swift */,
 				1F7761172781CE5F00804F24 /* DrinkListView.swift */,
 				1F8CF3D727831013005CFBC6 /* MenuCoverView.swift */,
@@ -182,6 +202,7 @@
 			isa = PBXGroup;
 			children = (
 				1FCD085027809D99007A03BC /* SizeOptionsView.swift */,
+				1FC605922784291F00D3BAFC /* AddToBagButton.swift */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -204,6 +225,8 @@
 			name = "starbuck (iOS)";
 			packageProductDependencies = (
 				1F8CF3D527830C26005CFBC6 /* SDWebImageSwiftUI */,
+				1F4EDC642785D653001DE73E /* Json */,
+				1F4EDC662785D653001DE73E /* Request */,
 			);
 			productName = "starbuck (iOS)";
 			productReference = 1F307A7E27808D9100811D1D /* starbuck.app */;
@@ -255,6 +278,7 @@
 			mainGroup = 1F307A7127808D8700811D1D;
 			packageReferences = (
 				1F8CF3D427830C26005CFBC6 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				1F4EDC632785D653001DE73E /* XCRemoteSwiftPackageReference "swift-request" */,
 			);
 			productRefGroup = 1F307A7F27808D9100811D1D /* Products */;
 			projectDirPath = "";
@@ -292,18 +316,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FCD084E27809A6D007A03BC /* MenuTItleView.swift in Sources */,
+				1FCD084E27809A6D007A03BC /* MenuTitleView.swift in Sources */,
 				1FC60591278427A300D3BAFC /* MenuListView.swift in Sources */,
 				1F67DF0F2780B54C00A81AF9 /* loadJson.swift in Sources */,
 				1F307A9827808EE100811D1D /* PriceLabel.swift in Sources */,
+				1F216F772785C9AE004B1FC7 /* LoadingView.swift in Sources */,
 				1F7761182781CE5F00804F24 /* DrinkListView.swift in Sources */,
 				1FBAFE802781C7FD00D9E8D9 /* DrinkView.swift in Sources */,
 				1F67DF0D2780B48100A81AF9 /* Order.swift in Sources */,
 				1F8CF3DB2783110F005CFBC6 /* Network.swift in Sources */,
 				1FCD085127809D99007A03BC /* SizeOptionsView.swift in Sources */,
 				1F307A8927808D9100811D1D /* ContentView.swift in Sources */,
+				1FC605932784291F00D3BAFC /* AddToBagButton.swift in Sources */,
 				1F307A8727808D9100811D1D /* starbuckApp.swift in Sources */,
 				1F8CF3D827831013005CFBC6 /* MenuCoverView.swift in Sources */,
+				1F216F752785C85C004B1FC7 /* HomeView.swift in Sources */,
 				1F67DF0B2780B32600A81AF9 /* Drink.swift in Sources */,
 				1F67DF092780B1A600A81AF9 /* DrinkMenu.swift in Sources */,
 			);
@@ -576,6 +603,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		1F4EDC632785D653001DE73E /* XCRemoteSwiftPackageReference "swift-request" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/carson-katri/swift-request.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 1.4.0;
+			};
+		};
 		1F8CF3D427830C26005CFBC6 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://gitee.com/ios-collection/SDWebImageSwiftUI.git";
@@ -587,6 +622,16 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		1F4EDC642785D653001DE73E /* Json */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1F4EDC632785D653001DE73E /* XCRemoteSwiftPackageReference "swift-request" */;
+			productName = Json;
+		};
+		1F4EDC662785D653001DE73E /* Request */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1F4EDC632785D653001DE73E /* XCRemoteSwiftPackageReference "swift-request" */;
+			productName = Request;
+		};
 		1F8CF3D527830C26005CFBC6 /* SDWebImageSwiftUI */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 1F8CF3D427830C26005CFBC6 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
