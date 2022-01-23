@@ -23,6 +23,10 @@
 		1F67DF0B2780B32600A81AF9 /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F67DF0A2780B32600A81AF9 /* Drink.swift */; };
 		1F67DF0D2780B48100A81AF9 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F67DF0C2780B48100A81AF9 /* Order.swift */; };
 		1F67DF0F2780B54C00A81AF9 /* loadJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F67DF0E2780B54C00A81AF9 /* loadJson.swift */; };
+		1F754912279CFE0500D2DFBB /* MenuOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F754911279CFE0400D2DFBB /* MenuOptionsView.swift */; };
+		1F754915279CFE9200D2DFBB /* ScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F754914279CFE9200D2DFBB /* ScreenView.swift */; };
+		1F754917279CFFAE00D2DFBB /* MenuTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F754916279CFFAE00D2DFBB /* MenuTitle.swift */; };
+		1F754919279D000900D2DFBB /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1F754918279D000900D2DFBB /* README.md */; };
 		1F7761182781CE5F00804F24 /* DrinkListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7761172781CE5F00804F24 /* DrinkListView.swift */; };
 		1F77611C2781E22000804F24 /* drinks.json in Resources */ = {isa = PBXBuildFile; fileRef = 1F77611B2781E22000804F24 /* drinks.json */; };
 		1F8CF3D627830C26005CFBC6 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 1F8CF3D527830C26005CFBC6 /* SDWebImageSwiftUI */; };
@@ -50,6 +54,10 @@
 		1F67DF0A2780B32600A81AF9 /* Drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drink.swift; sourceTree = "<group>"; };
 		1F67DF0C2780B48100A81AF9 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		1F67DF0E2780B54C00A81AF9 /* loadJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loadJson.swift; sourceTree = "<group>"; };
+		1F754911279CFE0400D2DFBB /* MenuOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuOptionsView.swift; sourceTree = "<group>"; };
+		1F754914279CFE9200D2DFBB /* ScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenView.swift; sourceTree = "<group>"; };
+		1F754916279CFFAE00D2DFBB /* MenuTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTitle.swift; sourceTree = "<group>"; };
+		1F754918279D000900D2DFBB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1F7761172781CE5F00804F24 /* DrinkListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkListView.swift; sourceTree = "<group>"; };
 		1F77611B2781E22000804F24 /* drinks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = drinks.json; sourceTree = "<group>"; };
 		1F8CF3D727831013005CFBC6 /* MenuCoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCoverView.swift; sourceTree = "<group>"; };
@@ -93,6 +101,7 @@
 		1F307A7127808D8700811D1D = {
 			isa = PBXGroup;
 			children = (
+				1F754918279D000900D2DFBB /* README.md */,
 				1F307A7627808D8700811D1D /* Shared */,
 				1F307A8527808D9100811D1D /* macOS */,
 				1F307A7F27808D9100811D1D /* Products */,
@@ -102,6 +111,7 @@
 		1F307A7627808D8700811D1D /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				1F754913279CFE7E00D2DFBB /* Helper */,
 				1F67DF012780B0EF00A81AF9 /* Data */,
 				1F307A7727808D8700811D1D /* starbuckApp.swift */,
 				1F307A7827808D8700811D1D /* ContentView.swift */,
@@ -144,6 +154,7 @@
 			children = (
 				1F307A9727808EE100811D1D /* PriceLabel.swift */,
 				1F216F762785C9AE004B1FC7 /* LoadingView.swift */,
+				1F754916279CFFAE00D2DFBB /* MenuTitle.swift */,
 			);
 			path = Reusable;
 			sourceTree = "<group>";
@@ -178,6 +189,14 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		1F754913279CFE7E00D2DFBB /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				1F754914279CFE9200D2DFBB /* ScreenView.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		1F8CF3D9278310FF005CFBC6 /* Live */ = {
 			isa = PBXGroup;
 			children = (
@@ -203,6 +222,7 @@
 			children = (
 				1FCD085027809D99007A03BC /* SizeOptionsView.swift */,
 				1FC605922784291F00D3BAFC /* AddToBagButton.swift */,
+				1F754911279CFE0400D2DFBB /* MenuOptionsView.swift */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -297,6 +317,7 @@
 			files = (
 				1F67DF052780B11D00A81AF9 /* orders.json in Resources */,
 				1F307A8B27808D9100811D1D /* Assets.xcassets in Resources */,
+				1F754919279D000900D2DFBB /* README.md in Resources */,
 				1F77611C2781E22000804F24 /* drinks.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -316,6 +337,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F754912279CFE0500D2DFBB /* MenuOptionsView.swift in Sources */,
 				1FCD084E27809A6D007A03BC /* MenuTitleView.swift in Sources */,
 				1FC60591278427A300D3BAFC /* MenuListView.swift in Sources */,
 				1F67DF0F2780B54C00A81AF9 /* loadJson.swift in Sources */,
@@ -330,7 +352,9 @@
 				1FC605932784291F00D3BAFC /* AddToBagButton.swift in Sources */,
 				1F307A8727808D9100811D1D /* starbuckApp.swift in Sources */,
 				1F8CF3D827831013005CFBC6 /* MenuCoverView.swift in Sources */,
+				1F754915279CFE9200D2DFBB /* ScreenView.swift in Sources */,
 				1F216F752785C85C004B1FC7 /* HomeView.swift in Sources */,
+				1F754917279CFFAE00D2DFBB /* MenuTitle.swift in Sources */,
 				1F67DF0B2780B32600A81AF9 /* Drink.swift in Sources */,
 				1F67DF092780B1A600A81AF9 /* DrinkMenu.swift in Sources */,
 			);
