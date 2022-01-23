@@ -161,6 +161,7 @@
 		1F67DF022780B0F500A81AF9 /* Mock */ = {
 			isa = PBXGroup;
 			children = (
+				1F67DF0E2780B54C00A81AF9 /* loadJson.swift */,
 				1F77611B2781E22000804F24 /* drinks.json */,
 				1F67DF032780B11D00A81AF9 /* orders.json */,
 			);
@@ -173,7 +174,6 @@
 				1F67DF082780B1A600A81AF9 /* DrinkMenu.swift */,
 				1F67DF0A2780B32600A81AF9 /* Drink.swift */,
 				1F67DF0C2780B48100A81AF9 /* Order.swift */,
-				1F67DF0E2780B54C00A81AF9 /* loadJson.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";

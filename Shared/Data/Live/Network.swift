@@ -2,7 +2,7 @@
 //  NetWork.swift
 //  starbuck (iOS)
 //
-//  Created by 苏粤翔 on 2022/1/3.
+//  Created by GnaixEuy on 2022/1/3.
 //
 
 import Foundation

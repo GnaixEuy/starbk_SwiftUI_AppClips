@@ -2,7 +2,7 @@
 //  loadJson.swift
 //  starbuck (iOS)
 //  解析Mock中的Json
-//  Created by 苏粤翔 on 2022/1/2.
+//  Created by GnaixEuy on 2022/1/2.
 //
 
 import Foundation

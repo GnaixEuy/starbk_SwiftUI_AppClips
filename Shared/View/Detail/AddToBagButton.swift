@@ -2,7 +2,7 @@
 //  AddToBagButton.swift
 //  starbuck (iOS)
 //
-//  Created by 苏粤翔 on 2022/1/4.
+//  Created by GnaixEuy on 2022/1/4.
 //
 
 import SwiftUI
