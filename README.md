@@ -2,9 +2,9 @@
 
 ---
 
-> 参考[小波老师]("https://www.youtube.com/channel/UCYeN6lt7_RCTxKdTcFv_tSQ")轻应用教学视频，自己的练习库
+> 参考[小波老师](https://www.youtube.com/channel/UCYeN6lt7_RCTxKdTcFv_tSQ)轻应用教学视频，自己的练习库
 >
-> 原视频地址: [IOS14 轻APP开发]("https://www.youtube.com/watch?v=57xzl7AQcAk&t=9s") 
+> 原视频地址: [IOS14 轻APP开发](https://www.youtube.com/watch?v=57xzl7AQcAk&t=9s) 
 >
 > 原项目地址: [yagamis](https://github.com/yagamis)/**[starducks](https://github.com/yagamis/starducks)**
 
