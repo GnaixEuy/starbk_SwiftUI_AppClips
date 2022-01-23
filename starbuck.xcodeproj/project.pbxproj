@@ -23,10 +23,14 @@
 		1F67DF0B2780B32600A81AF9 /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F67DF0A2780B32600A81AF9 /* Drink.swift */; };
 		1F67DF0D2780B48100A81AF9 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F67DF0C2780B48100A81AF9 /* Order.swift */; };
 		1F67DF0F2780B54C00A81AF9 /* loadJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F67DF0E2780B54C00A81AF9 /* loadJson.swift */; };
+		1F6B7F61279D0DDF002D7684 /* OrderThumbView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6B7F60279D0DDF002D7684 /* OrderThumbView.swift */; };
 		1F754912279CFE0500D2DFBB /* MenuOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F754911279CFE0400D2DFBB /* MenuOptionsView.swift */; };
 		1F754915279CFE9200D2DFBB /* ScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F754914279CFE9200D2DFBB /* ScreenView.swift */; };
 		1F754917279CFFAE00D2DFBB /* MenuTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F754916279CFFAE00D2DFBB /* MenuTitle.swift */; };
 		1F754919279D000900D2DFBB /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1F754918279D000900D2DFBB /* README.md */; };
+		1F75491B279D0B1D00D2DFBB /* MilkOptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F75491A279D0B1D00D2DFBB /* MilkOptionView.swift */; };
+		1F75491D279D0C3600D2DFBB /* BagButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F75491C279D0C3600D2DFBB /* BagButton.swift */; };
+		1F75491F279D0D8E00D2DFBB /* OrderHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F75491E279D0D8E00D2DFBB /* OrderHUD.swift */; };
 		1F7761182781CE5F00804F24 /* DrinkListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7761172781CE5F00804F24 /* DrinkListView.swift */; };
 		1F77611C2781E22000804F24 /* drinks.json in Resources */ = {isa = PBXBuildFile; fileRef = 1F77611B2781E22000804F24 /* drinks.json */; };
 		1F8CF3D627830C26005CFBC6 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 1F8CF3D527830C26005CFBC6 /* SDWebImageSwiftUI */; };
@@ -54,10 +58,14 @@
 		1F67DF0A2780B32600A81AF9 /* Drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drink.swift; sourceTree = "<group>"; };
 		1F67DF0C2780B48100A81AF9 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		1F67DF0E2780B54C00A81AF9 /* loadJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loadJson.swift; sourceTree = "<group>"; };
+		1F6B7F60279D0DDF002D7684 /* OrderThumbView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderThumbView.swift; sourceTree = "<group>"; };
 		1F754911279CFE0400D2DFBB /* MenuOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuOptionsView.swift; sourceTree = "<group>"; };
 		1F754914279CFE9200D2DFBB /* ScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenView.swift; sourceTree = "<group>"; };
 		1F754916279CFFAE00D2DFBB /* MenuTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTitle.swift; sourceTree = "<group>"; };
 		1F754918279D000900D2DFBB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1F75491A279D0B1D00D2DFBB /* MilkOptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilkOptionView.swift; sourceTree = "<group>"; };
+		1F75491C279D0C3600D2DFBB /* BagButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BagButton.swift; sourceTree = "<group>"; };
+		1F75491E279D0D8E00D2DFBB /* OrderHUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderHUD.swift; sourceTree = "<group>"; };
 		1F7761172781CE5F00804F24 /* DrinkListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkListView.swift; sourceTree = "<group>"; };
 		1F77611B2781E22000804F24 /* drinks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = drinks.json; sourceTree = "<group>"; };
 		1F8CF3D727831013005CFBC6 /* MenuCoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCoverView.swift; sourceTree = "<group>"; };
@@ -141,6 +149,7 @@
 		1F307A9527808EAE00811D1D /* View */ = {
 			isa = PBXGroup;
 			children = (
+				1F6B7F5F279D0DCF002D7684 /* Order */,
 				1F216F732785C84B004B1FC7 /* Scene */,
 				1FCD084F27809D88007A03BC /* Detail */,
 				1FCD084C27809A2C007A03BC /* Home */,
@@ -155,6 +164,8 @@
 				1F307A9727808EE100811D1D /* PriceLabel.swift */,
 				1F216F762785C9AE004B1FC7 /* LoadingView.swift */,
 				1F754916279CFFAE00D2DFBB /* MenuTitle.swift */,
+				1F75491C279D0C3600D2DFBB /* BagButton.swift */,
+				1F75491E279D0D8E00D2DFBB /* OrderHUD.swift */,
 			);
 			path = Reusable;
 			sourceTree = "<group>";
@@ -187,6 +198,14 @@
 				1F67DF0C2780B48100A81AF9 /* Order.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		1F6B7F5F279D0DCF002D7684 /* Order */ = {
+			isa = PBXGroup;
+			children = (
+				1F6B7F60279D0DDF002D7684 /* OrderThumbView.swift */,
+			);
+			path = Order;
 			sourceTree = "<group>";
 		};
 		1F754913279CFE7E00D2DFBB /* Helper */ = {
@@ -223,6 +242,7 @@
 				1FCD085027809D99007A03BC /* SizeOptionsView.swift */,
 				1FC605922784291F00D3BAFC /* AddToBagButton.swift */,
 				1F754911279CFE0400D2DFBB /* MenuOptionsView.swift */,
+				1F75491A279D0B1D00D2DFBB /* MilkOptionView.swift */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -342,12 +362,16 @@
 				1FC60591278427A300D3BAFC /* MenuListView.swift in Sources */,
 				1F67DF0F2780B54C00A81AF9 /* loadJson.swift in Sources */,
 				1F307A9827808EE100811D1D /* PriceLabel.swift in Sources */,
+				1F75491B279D0B1D00D2DFBB /* MilkOptionView.swift in Sources */,
+				1F6B7F61279D0DDF002D7684 /* OrderThumbView.swift in Sources */,
 				1F216F772785C9AE004B1FC7 /* LoadingView.swift in Sources */,
+				1F75491F279D0D8E00D2DFBB /* OrderHUD.swift in Sources */,
 				1F7761182781CE5F00804F24 /* DrinkListView.swift in Sources */,
 				1FBAFE802781C7FD00D9E8D9 /* DrinkView.swift in Sources */,
 				1F67DF0D2780B48100A81AF9 /* Order.swift in Sources */,
 				1F8CF3DB2783110F005CFBC6 /* Network.swift in Sources */,
 				1FCD085127809D99007A03BC /* SizeOptionsView.swift in Sources */,
+				1F75491D279D0C3600D2DFBB /* BagButton.swift in Sources */,
 				1F307A8927808D9100811D1D /* ContentView.swift in Sources */,
 				1FC605932784291F00D3BAFC /* AddToBagButton.swift in Sources */,
 				1F307A8727808D9100811D1D /* starbuckApp.swift in Sources */,
