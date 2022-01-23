@@ -8,10 +8,15 @@
 import SwiftUI
 
 @main
-struct starbuckApp: App {
+struct starducksApp: App {
+
+    @StateObject var store = Store()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView().environmentObject(store)
+
         }
     }
 }
+
